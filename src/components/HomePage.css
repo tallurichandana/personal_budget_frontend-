@@ -1,0 +1,65 @@
+/* HomePage.css */
+
+.homepageContainer {
+  background-color: #333; /* Set the background color to match the login container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #333; /* Match login text color */
+  text-align: center;
+}
+
+.textSection {
+  margin-top: 10px;
+  max-width: 600px;
+}
+
+.textSection h2 {
+  font-size: 2.1rem;
+  margin-bottom: 20px;
+  color: #007bff; /* Match login button color */
+}
+
+.textSection p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555; /* Match login text color */
+}
+
+.contactButton {
+  background-color: #007bff; /* Match login button background color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: #0056b3; /* Match login button hover background color */
+}
+
+
+.login-button,
+.signup-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  margin-right: 10px;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

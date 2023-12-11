@@ -1,0 +1,59 @@
+/* Simplified .loginContainer CSS */
+
+.loginContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #ff5733;
+  border-radius: 15px;
+  background-color: #1a1a1a;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.loginContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff5733;
+  font-size: 24px;
+}
+
+.loginContainer form {
+  width: 100%;
+}
+
+.loginContainer label {
+  display: block;
+  margin-bottom: 15px;
+  color: #ddd;
+  font-size: 18px;
+}
+
+.loginContainer input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ff5733;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginContainer button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff5733;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.loginContainer button:hover {
+  background-color: #ff4000;
+  box-shadow: 0 4px 8px rgba(255, 87, 51, 0.6);
+}

@@ -1,0 +1,165 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fbfbfb;
+  color: #333;
+}
+
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f0f0f0; /* Updated background color */
+}
+
+
+/* Scroll Container */
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  text-align: center;
+  flex: 1;
+}
+
+/* Welcome Heading */
+.welcome-heading {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+/* Finance Description */
+.finance-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Fields Container */
+.fields-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Form Fields */
+.dropdown,
+.item-field,
+.budget-field {
+  width: 200px;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-color: #eee;
+  color: #333;
+}
+
+/* Buttons */
+.submit-button,
+.cancel-button,
+.dashboard-button,
+.goback {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
+}
+
+/* Button Hover Effect */
+.submit-button:hover,
+.cancel-button:hover,
+.dashboard-button:hover,
+.goback:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(92, 184, 92, 0.4);
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 14.5%;
+  margin-top: 5px;
+}
+
+/* Hide Buttons */
+.hide-buttons {
+  display: none;
+}
+
+/* Table Container */
+.table-container {
+  margin-top: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+/* Table Styles */
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+thead th {
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+/* Charts Container */
+.charts-container {
+  display: flex;
+  flex-direction: column; /* Stack charts vertically */
+  align-items: center; /* Center charts horizontally */
+  gap: 20px;
+}
+
+/* Individual Chart */
+.chart {
+  width: 100%; /* Take full width of the container */
+  max-width: 600px;
+  height: auto; /* Let the height adjust dynamically */
+  margin-bottom: 20px; /* Adjust as needed */
+}
