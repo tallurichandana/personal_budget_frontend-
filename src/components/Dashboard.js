@@ -127,7 +127,7 @@ const Dashboard = () => {
       ...capacityData,
     };
     console.log(dataToSend);
-    fetch('http://174.138.68.220:5000/addCapacity', {
+    fetch('http://174.138.68.220:5000/addLimit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

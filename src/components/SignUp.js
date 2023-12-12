@@ -22,7 +22,7 @@ function Signup() {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://174.138.68.220:5000/signup', {
+      const response = await fetch('http://174.138.68.220:5000/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
